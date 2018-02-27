@@ -20,8 +20,6 @@
         android:text="THE 5 BEST PLAYERS"/>
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -29,8 +27,6 @@
         tools:context="com.ponroy.florian.topquiz.controller.ScoresActivity">
 
         <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
@@ -44,8 +40,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="25sp"
-                android:textColor="@android:color/holo_green_dark"
-                android:hint="SCORE"/>
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="SCORE"/>
 
             <TextView
                 android:id="@+id/activity_scores_title_name_txt"
@@ -55,8 +51,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:textSize="25sp"
-                android:textColor="@android:color/black"
-                android:hint="NAME"/>
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="NAME"/>
 
 
         </LinearLayout>
@@ -109,8 +105,6 @@
     </LinearLayout>
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
